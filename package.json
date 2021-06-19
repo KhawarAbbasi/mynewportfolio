@@ -1,0 +1,16 @@
+{
+  "name": "startbootstrap-agency-gh-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://KhawarAbbasi.github.io/myportfolio",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.2"
+  }
+}
