@@ -345,10 +345,41 @@ s Contact Form * *-->
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" name="message" data-sb-validations="required" required></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                               <input class="form-control" id="card" type="text" placeholder="Your Card Number *" name="card" data-sb-validations="required" required/>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A Card number is required.</div>
+<br>
+<div class="row">
+<div class="col-xs-7 col-md-7">
+<div class="form-group">
+
+<input 
+type="tel" 
+class="form-control" 
+name="expire"
+placeholder="MM / YY"
+autocomplete="cc-exp"
+required 
+/>
+<br>
+<div class="col-xs-5 col-md-5 pull-right">
+<div class="form-group">
+
+<input 
+type="tel" 
+class="form-control"
+name="cvc"
+placeholder="CVC"
+autocomplete="cc-csc"
+required
+/>
+</div>
+</div>
+</div>
+<br>
+
                             </div>
+				
+                            
                         </div>
                     </div>
                     <!-- Submit success message-->
